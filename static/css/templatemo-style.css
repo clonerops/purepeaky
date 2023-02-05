@@ -336,11 +336,15 @@ nav {
 
 
 .portfolio-item .hover-effect .hover-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
     position: absolute;
     text-align: left;
     width: 100%;
-    bottom: 0;
-    left: 0;
+    bottom: 39px;
+    right: 39px;
 }
 
 
