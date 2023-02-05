@@ -6,8 +6,19 @@ https://templatemo.com/tm-520-highway
 
 */
 
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir-Black.ttf");
+  font-weight: normal;
+}
+
+*, html {
+  direction: rtl;
+}
+
 body {
-  font-family: 'Kanit', sans-serif;
+  direction: rtl;
+  font-family: 'Kanit', 'Vazir', sans-serif;
 }
 
 body::-webkit-scrollbar {
